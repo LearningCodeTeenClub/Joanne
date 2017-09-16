@@ -1,0 +1,394 @@
+/*Tan, Joanne: CSS style Sheet Master Sheet*/ 
+nav a {
+	display: inline-block;
+	width: 131px;
+	height: 40px;
+	background-color: white;
+	margin-top: 80px;
+	text-align: center;
+	border: 0.5px solid white;
+	font-size: 1.25em;
+	text-decoration: none;
+	color: black;
+	border: dotted black 0.5px;
+	
+
+}
+nav a:hover {
+	background-color: #8B292C;
+	color: white;
+	font-weight: bold;
+	
+}
+
+
+
+header {
+	width: 960px;
+	height: 250px;
+	background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2012/12/18/25619/427052c033c6639ff29b71cc66aa2714.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 0.5px solid black;
+	
+}
+
+h1 {
+	text-align: center;
+	font-family: Diogenes, Roman SD,Felix Titling;
+	padding-top: 4px;
+	color: #d66836;
+	font-size: 4em;
+	text-shadow: 3px 1px black;
+}
+
+h3 {
+	font-size: 2em;
+	text-align: center;
+	text-decoration: underline;
+} 
+
+body {
+	/*background-color: #D5DFF4;*/
+	/*
+	background-image: url(https://thedrawingboardcanada.files.wordpress.com/2015/03/images-for-gt-greek-mythology-backgrounds-powerpoint-greek-mythology-wallpaper-gods-alphabet-salad-recipe-yogurt-goddesses-islands-names-dressing.jpg);
+	*/
+	background-repeat: no-repeat;
+	background-image: url(http://images.thinkdrawart.com/wp-content/uploads/2012/04/Fantasy-Sky-Step2d.jpg);
+	margin: auto;
+	background-size: cover;
+	width: 960px;
+}
+
+aside {
+	background-color:white; 
+	width: 285px;
+	height: 600px;
+	display: block;
+	border: 0.5px solid white;
+	float: right;
+	margin-top: 60px;
+
+}
+
+.contents {
+	font-family: AR JULIAN, AR BERKLEY, AR BLANCA;
+	font-size: 1.7em;
+	margin: auto;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.content_decoration:hover {
+	color: red;
+}
+
+
+footer {
+	width: 960px;
+	border: 0.5px solid white;
+	clear: both;
+	background-color: #DAD8D8;
+	height: 50px;
+	text-align: center;
+	
+}	
+
+.short_footer {
+	width: 660px;
+	border: 0.5px solid white;
+	clear: both;
+	background-color: #DAD8D8;
+	height: 50px;
+	text-align: center;
+}
+
+/*Home Page*/
+	
+#home_section { 
+	border: 0.5px solid white;
+	width: 660px;
+	height: 600px;
+	display: block;
+	background-color: white;
+	float: left;
+	margin-top: 60px;
+	font-size: 1.1em;
+}
+
+.img_home {
+	width: 600px;
+	height: 400px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.article_home {
+	text-align: center;
+}
+
+.learn_more {
+	font-family: AR CENA;
+	font-size: 1.7em;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 50px;
+}
+
+.links {
+	font-family: Kristen ITC;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+
+#side_pic_home {
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+/*Greek Gods Page*/
+
+#god_aside {
+	background-color:white; 
+	width: 285px;
+	height: 600px;
+	display: inline-block;
+	float: right;
+	border: 0.5px solid white;
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	/*how can i make this different for only this page*/
+	position: fixed;
+
+}
+
+#god_section {
+	border: 0.5px solid white;
+	width: 660px;
+
+	height: 4320px;
+
+	display: block;
+	background-color: white;
+	float: left;
+	margin-top: 60px;
+	font-size: 1.1em;
+}
+
+.olympians {
+	border-radius: 90%;
+	width: 250px;
+	margin-top: 50px;
+	position: relative;
+	
+
+}
+
+article h4 {
+	width: 300px;
+	margin-top: 150px;
+	float: right;
+	font-family: Castellar;
+	font-size: 1.2em;
+	position: relative;
+
+}
+
+li {
+	font-size: 1.3em;
+	margin-top: 80px;
+	font-weight: bold;
+}
+
+.god_article {
+	
+	width: 300px;
+	float: right;
+	position: relative;
+	margin-right: 45px;
+	
+}
+div {
+	display: inline-block;
+	width: 250px;
+}
+#apollo, #ares, #dionysus, #hades, #hermes, #poseidon, #zeus, #aphrodite,
+#athena, #artemis, #hera, #hestia, #chimera, #cerberus, #sphinx, #hydra,
+#minotaur, #archilles, #perseus, #oedipus {
+
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 15px;
+	border-color: blue;
+	width: 200px;
+	display: inline-block;
+	font-family: AR JULIAN;
+	font-size: 1.3em;
+}
+
+
+#hephaestus {
+	height: 500px;
+	margin-top: 100px;
+	margin-left: 15px;
+	text-decoration: none;
+	font-family: AR JULIAN;
+	font-size: 1.3em;
+}
+/*
+ .background_blue {
+	background-color: #D5DFF4;
+	width: 960px;
+	height: 6000px;
+	clear: both;
+}*/
+
+/*Contact Page*/
+#contact_section {
+
+	border: 0.5px solid white;
+	width: 660px;
+	height: 990px;
+	display: block;
+	background-color: white;
+	float: left;
+	margin-top: 60px;
+	font-size: 1.1em;
+
+}
+input {
+	width: 220px;
+	height: 30px;
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+
+}
+textarea {
+	width: 500px;
+	height:250px;
+	float: left;
+	margin-left: 20px;
+	max-width: 450px;
+	max-height: 500px;
+	font-family: Verdana;
+}
+input:nth-child(4) {
+	float: bottom;
+	margin-top: 50px;
+	position: relative;
+}
+#bold {
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#italics {
+	font-style: italic;
+}
+
+#contact_info {
+	margin-left: 20px;
+}
+
+#side_pic_contact {
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+
+/*Goddess Page*/
+#hestia {
+	
+	float: left;
+	margin-left: 15px;
+	margin-right: 10px;
+	position: relative;
+}
+
+#goddess_section {
+	border: 0.5px solid white;
+	width: 660px;
+
+	height: 2750px;
+
+	display: block;
+	background-color: white;
+	float: left;
+	margin-top: 60px;
+	font-size: 1.1em;
+}
+/*Creatures Page*/
+
+#creatures_section {
+	border: 0.5px solid white;
+	width: 660px;
+
+	height: 2300px;
+
+	display: block;
+	background-color: white;
+	float: left;
+	margin-top: 60px;
+	font-size: 1.1em;
+}
+/*Heroes Page*/
+#perseus {
+	
+}
+#heroes_section {
+	border: 0.5px solid white;
+	width: 660px;
+
+	height: 2700px;
+
+	display: block;
+	background-color: white;
+	float: left;
+	margin-top: 60px;
+	font-size: 1.1em;
+}
+/*Works Cited Page*/
+
+.citations_section {
+	border: 0.5px solid white;
+	width: 660px;
+
+	height: 2700px;
+
+	display: block;
+	background-color: white;
+	float: left;
+	margin-top: 60px;
+	font-size: 1.1em;
+}
+h2 {
+	text-decoration: underline;
+}
+#cited_article {
+	margin: auto;
+	width: 660px;
+	height: 1200px;
+	background-color: white;
+	float: left;
+	margin-top: 60px;
+}
+
+#side_pic_citations {
+	margin-left: 5px;
+	margin-top: 10px;
+	
+}
+
+#aside_citations {
+	background-color:white; 
+	width: 285px;
+	height: 300px;
+	display: block;
+	border: 0.5px solid white;
+	float: right;
+	margin-top: 60px;
+}
